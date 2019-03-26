@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 400px;
     grid-auto-rows: 400px;
+    backgound: #f5f5f5;
 }
 
 .line-chart {
