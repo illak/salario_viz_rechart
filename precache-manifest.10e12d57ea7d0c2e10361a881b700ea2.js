@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/salario_viz_rechart/static/js/runtime~main.18c32bf0.js"
   },
   {
-    "revision": "8864388a5fa96dcc5bff",
-    "url": "/salario_viz_rechart/static/js/main.561061da.chunk.js"
+    "revision": "c9c5306a5f6b43df98f6",
+    "url": "/salario_viz_rechart/static/js/main.e50c7c42.chunk.js"
   },
   {
     "revision": "622c82eb4699a4bb05e7",
     "url": "/salario_viz_rechart/static/js/2.c5ceb51c.chunk.js"
   },
   {
-    "revision": "8864388a5fa96dcc5bff",
+    "revision": "c9c5306a5f6b43df98f6",
     "url": "/salario_viz_rechart/static/css/main.941eba1e.chunk.css"
   },
   {
-    "revision": "69af91073c9d69a4825c0bcc04d99397",
+    "revision": "3e99024aec525e1a2a37ebe3e4e408dd",
     "url": "/salario_viz_rechart/index.html"
   }
 ];
