@@ -1,0 +1,23 @@
+language: node_js
+cache:
+  directories:
+  - "~!@/.npm"
+node_js:
+- '9'
+git:
+  depth: 3
+script:
+- yarn build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  github-token: "$GITHUB_TOKEN"
+  local-dir: dist/
+  target-branch: master
+  commit_message: Deploy release ${TRAVIS_TAG}
+  on:
+    branch: develop
+env:
+  global:
+    secure: vTLGcM3M568xDY3Wbfki3XH1NX4dWJEo0TOHV0UIcqJh7W1oyY/+hdc/vbHh3F/FJvKwLWJp+xK+prFBG2WItJy0ArGsddrY92zKVzBqdiEiCjCIEHf0o6g6XqzlRBszSyIH5JkbFIiulXpzGdugsqhzAuoJc2bTRaZxr3tHtc2MphYrKPTGHD0LB/xwqc+rn5a2T98e84W5Cz5tiTfxeqcoyX+v+8qriaMIvKq5LpGHEUfjvvwJQfWXCR6O9u+zawFkrM+t5pzbxqQGKj+q2htPgB0kYyTybeF/uvsujDMNYNHUmjYsGFfNGYGTiQrQ7Xmiw0StBusSoiBj6XPXm+cLDZm3esVMb5gk5G7kB0fUAX5Tl9CortQI4dojxW88JROLEKxhE8LCRz1C2kmwsaIehRsz8K+kTqWu831dKv3tZfPj7wqYpZZqpruAbjwkMFZdtGZZNui6qbYJA976ff6bKXuJ669phOUr91HpqUFRCUbcwS+1gFJBpHMOr4N5L7T72x5IMBw2ooCRXSuWj0M4F2wig93ZuTU2XS4CSRh7IMJSw7AU3Sc2GuY4V1fftZ3dNwQcEU+p0/7EFC9NfKBCEuhubL+L8icDMomlp1Vc1uJy6MdKBA62pgdIRp1aXbWyF8Bab7/4MLJAUKF93wuEITDj+6cVL9wAtmNk/z8=
