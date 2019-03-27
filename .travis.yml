@@ -3,11 +3,11 @@ cache:
   directories:
   - "~!@/.npm"
 node_js:
-  - '9'
+- '9'
 git:
   depth: 3
 script:
-  - yarn build
+- yarn build
 deploy:
   provider: pages
   skip-cleanup: true
@@ -20,4 +20,4 @@ deploy:
     branch: develop
 env:
   global:
-    secure: vTLGcM3M568xDY3Wbfki3XH1NX4dWJEo0TOHV0UIcqJh7W1oyY/+hdc/vbHh3F/FJvKwLWJp+xK+prFBG2WItJy0ArGsddrY92zKVzBqdiEiCjCIEHf0o6g6XqzlRBszSyIH5JkbFIiulXpzGdugsqhzAuoJc2bTRaZxr3tHtc2MphYrKPTGHD0LB/xwqc+rn5a2T98e84W5Cz5tiTfxeqcoyX+v+8qriaMIvKq5LpGHEUfjvvwJQfWXCR6O9u+zawFkrM+t5pzbxqQGKj+q2htPgB0kYyTybeF/uvsujDMNYNHUmjYsGFfNGYGTiQrQ7Xmiw0StBusSoiBj6XPXm+cLDZm3esVMb5gk5G7kB0fUAX5Tl9CortQI4dojxW88JROLEKxhE8LCRz1C2kmwsaIehRsz8K+kTqWu831dKv3tZfPj7wqYpZZqpruAbjwkMFZdtGZZNui6qbYJA976ff6bKXuJ669phOUr91HpqUFRCUbcwS+1gFJBpHMOr4N5L7T72x5IMBw2ooCRXSuWj0M4F2wig93ZuTU2XS4CSRh7IMJSw7AU3Sc2GuY4V1fftZ3dNwQcEU+p0/7EFC9NfKBCEuhubL+L8icDMomlp1Vc1uJy6MdKBA62pgdIRp1aXbWyF8Bab7/4MLJAUKF93wuEITDj+6cVL9wAtmNk/z8=
+  - secure: fjF75H8xs+x8yf7Qc7bjqJG6d49fdEKeYhdyHR7ud4y8vnfVJYJk0Uq6jS7YoHLurhb1HW7ue99tYD9Sa0oSBE0zdpIVExRW1QqhxKzjOdzvQVGomsWuUzFSeMs788DAFFXdMaPrONiRFgb6r9hr0/x1SpBUiaLOyt2aOx8Zy44+Q6Xj9hxBDh0f+MjBmicYtcR5KnADxMt5ICN/5OkK0rWYajvT44UxDS35FhUR6sJ7DpPA++BL70ZFpb1Hyg8HsCbuZIrKL1lwGpYjUAsIxvTLhQATx1AxfYZCM2nUasI8DebpdHeUWctX+1FRhyN0Uli8PklyjyBh0eYbrlSvKjtt45Gw0GdINzoYPdmUkiFyJfHTAWYyXPZ7BgDZ/bhKfrlNQVNZafaGfrv7UiD+kFP04yDRv1p6O7VoSSaT8lh6A6no024AjTAeHQJOWUHJwTooblptVQoNzVAgTw3B0ePyTVXzcme87wAdQ0eshDTEr3AVkCvU2LsBRefJWDVB4dJNicihVrOGt7UHISAshYY7tEUsb0PPl9B9E/v55OUujow8dhNMWIGYd1VH6y6FAiqoLoRECsTb3EAoAT/fK3z2BmRuwAeY5DMowfUyZ7wyGCSDOtlcqxol/LBCLbtv2reRf4vzcZVOMe4xz8MuOreFZVbqp+OG8pHHfUnP5ts=
