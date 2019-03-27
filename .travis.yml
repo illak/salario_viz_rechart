@@ -3,11 +3,11 @@ cache:
   directories:
   - "~!@/.npm"
 node_js:
-  - '9'
+  - '10'
 git:
   depth: 3
 script:
-- npm build
+  - npm build
 deploy:
   provider: pages
   skip-cleanup: true
