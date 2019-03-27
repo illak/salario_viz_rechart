@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/salario_viz_rechart/precache-manifest.5a59edaba45f00c46402943cb3f1026c.js"
+  "/salario_viz_rechart/precache-manifest.a6da66e96ea74e87ca5aa39fd13e37cf.js"
 );
 
 workbox.clientsClaim();
